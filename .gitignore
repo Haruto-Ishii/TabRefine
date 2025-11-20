@@ -1,0 +1,4 @@
+real_data/
+synth_data/
+refined_data/
+*__pycache__*

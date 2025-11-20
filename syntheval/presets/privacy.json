@@ -1,0 +1,10 @@
+{
+    "p_mse"     : {"k_folds": 5, "max_iter": 100, "solver": "liblinear"},
+    "nndr"      : {},
+    "nnaa"      : {"n_resample": 30},
+    "dcr"       : {},
+    "hit_rate"  : {"thres_percent": 0.0333},
+    "eps_risk"  : {},
+    "mia"  : {"num_eval_iter": 5},
+    "att_discl" : {}
+}

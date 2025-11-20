@@ -1,0 +1,4 @@
+{
+    "hit_rate"  : {"thres_percent": 0.0333},
+    "mia"  : {"num_eval_iter": 5}
+}
