@@ -13,26 +13,20 @@ pip install -r requirements.txt
 
 ## 📂 Data Preparation
 
-Please download the necessary datasets from the links provided in `data_link.txt`.
+### 1. Included Datasets
+We currently provide the pre-processed data (real, synthetic, and refined) for the **CIC-IDS2018** dataset.
 
-After downloading, extract and place the data so that the `real_data`, `refined_data`, and `synth_data` folders are located in the same directory as `tabrefine.py`.
+* **CSE-CIC-IDS2018**:
+    * **Source**: [https://registry.opendata.aws/cse-cic-ids2018/](https://registry.opendata.aws/cse-cic-ids2018/)
+    * **Citation**:
+        > Iman Sharafaldin, Arash Habibi Lashkari, and Ali A. Ghorbani, “Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization”, 4th International Conference on Information Systems Security and Privacy (ICISSP), Portugal, January 2018
 
-The directory structure should look like this:
+    The data located in `real_data/CIC-IDS2018/` has been pre-processed (separated into numerical/categorical features and formatted as `.npy`) for immediate use with this framework.
 
-```text
-.
-├── tabrefine.py
-├── utility_evaluation.py
-├── privacy_evaluation.py
-├── requirements.txt
-├── data_link.txt
-├── real_data/
-│   └── ...
-├── refined_data/
-│   └── ...
-└── synth_data/
-    └── ...
-```
+### 2. Other Datasets
+Due to licensing restrictions, we do not publicly distribute the **UNSW-NB15** and **CICIoT2023** datasets (including their synthetic versions) in this repository.
+
+If you are interested in reproducing the experiments with these datasets or require the processed data for research purposes, please **contact the author** directly.
 
 ## 🚀 Usage
 
